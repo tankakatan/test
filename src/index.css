@@ -71,7 +71,7 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 415px) {
 
     main {
         height: 408pt;
@@ -90,7 +90,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 414px) {
     main {
         flex-direction: column;
     }
