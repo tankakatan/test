@@ -6,8 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "parcel src/index.html",
-        "build": "parcel build src/index.html --out-dir ./build",
-        "watch": "parcel watch src/index.html --out-dir ./build"
+        "build": "parcel build src/index.html --out-dir .",
+        "watch": "parcel watch src/index.html --out-dir ."
     },
     "author": "Denis Voropaev",
     "license": "ISC",
