@@ -1,0 +1,24 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "test react app for binance",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html --out-dir ./build",
+        "watch": "parcel watch src/index.html --out-dir ./build"
+    },
+    "author": "Denis Voropaev",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^16.9.19",
+        "@types/react-dom": "^16.9.5",
+        "parcel-bundler": "^1.12.4",
+        "typescript": "^3.7.5"
+    },
+    "dependencies": {
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0"
+    }
+}

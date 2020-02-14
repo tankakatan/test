@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "noImplicitAny" : true,
+        "allowJs": false,
+        "strict": true,
+        "jsx": "react",
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "ES6",
+            "DOM"
+        ]
+    }
+}
