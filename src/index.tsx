@@ -3,6 +3,7 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
 
+import './reset.css'
 import './index.css'
 
 const Theme = React.createContext ('light')
@@ -27,7 +28,13 @@ const App = () => <ContentLight>
         <Header/>
         <Main>
             <Feed>
-                { Array.from ({ length: 2 }).map ((_: unknown, i: number) => <FeedItem key={ i }/>) }
+                {
+                    /**
+                     * Normally using array index as a React element key is an anti-pattern.
+                     * But in this particular example, it really does not matter.
+                     * */
+                    Array.from ({ length: 2 }).map ((_: unknown, i: number) => <FeedItem key={ i }/>)
+                }
             </Feed>
             <Sidebar/>
             <Content/>
